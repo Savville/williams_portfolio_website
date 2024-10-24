@@ -1,0 +1,73 @@
+.portfolio__skills {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.portfolio__skills-heading {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    text-align: left;
+    margin-right: 5rem;
+}
+
+.portfolio__skills-heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+}
+
+.portfolio__skills-heading p {
+    color: var(--color-subtext);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: var(--font-family);
+
+    margin-top: 2rem;
+}
+
+.portfolio__skills-container {
+    flex: 1.5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.portfolio__project-heading{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+
+    text-align: left;
+    margin-right: 5rem;
+}
+
+@media screen and (max-width: 990px) {
+    .portfolio__skills {
+        flex-direction: column;
+    }
+
+    .portfolio__skills-heading {
+        margin: 0 0 2rem 0;
+    }
+    .portfolio__project-heading {
+        margin: 0 0 2rem 0;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .portfolio__skills-heading h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+}

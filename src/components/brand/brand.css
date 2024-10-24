@@ -1,0 +1,27 @@
+.portfolio__link {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio__link div {
+    flex: 1;
+    max-width: 150px;
+    min-width: 120px;
+    margin: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    text-decoration:none;
+    font-family:var(--font-family);
+    font-size:20px;
+    color:#fff;
+    font-weight: 300;
+    justify-content: center;
+}
