@@ -1,5 +1,5 @@
 import React from 'react';
-import ilearnapp from '../../assets/ilearnapp.png';
+import MACHANKURA from '../../assets/MACHANKURA.jpg';
 import './PROJECT1.css';
 
 const PROJECT1 = () => (
@@ -9,16 +9,17 @@ const PROJECT1 = () => (
    
     
     <div className="portfolio__project-content">
-      <h4>KUsoma</h4>      
-      <p>E learning app for Kenyatta University.</p>
-      <p>As a student, I desired a learning system that will be closer to the students and enhance on impacting
-        practical skills to students in technical courses.
+      <h4>Machankura App Usability Research</h4>      
+      <p>I had a chance to participate in the Africa Bitcoin Boot camp that happened in December 2024.</p>
+      <p>Among the Bitcoin wallet we were given to research on was Machankura, an app for sending Bitcoin Sats offline.
       </p>
-      <p>I started design and finished in duration 10 days on July 20th 2024.I am currently working on the frontend.</p> 
+      <p>The users who did the usability tests liked the fact that they could send Sats through USSD service. The process of sending and receiving was also smooth to most users.</p>
+      <p>The major pain point was the fact that as a wallet , it did not have a form of security like a password to log in to ensure safety of user’s Sats.</p> 
+ 
       
     </div>
     <div className="portfolio__project-image">
-      <img src={ilearnapp} alt="ilearnapp" />
+      <img src={MACHANKURA} alt="machankura" />
     </div>
   </div>
 );

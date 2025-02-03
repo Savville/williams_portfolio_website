@@ -47,6 +47,21 @@
     margin-bottom: 2rem;
 }
 
+.portfolio__project-content ul {
+    list-style-type: disc; /* Ensure list items have bullet points */
+    margin-left: 20px; /* Add some left margin */
+    padding-left: 20px; /* Add some padding for better spacing */
+}
+
+.portfolio__project-content li {
+    color: var(--color-text); /* Ensure text color is consistent */
+    font-family: var(--font-family); /* Use the same font family */
+    font-weight: 400; /* Use the same font weight */
+    font-size: 16px; /* Adjust font size if necessary */
+    line-height: 30px; /* Ensure consistent line height */
+    margin-bottom: 10px; /* Add some space between list items */
+}
+
 
 @media screen and (max-width: 950px) {
     .portfolio__project {

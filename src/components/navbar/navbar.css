@@ -2,28 +2,30 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     padding: 2rem 6rem;
+    flex-direction: row-reverse; /* Reverse the order of the children */
 }
 
 .portfolio__navbar-links {
     flex: 1;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
+    justify-content: flex-start; /* Align links to the left */
 }
 
 .logo {
-    margin-right: 2rem;
-    font-family:var(--font-family) ;
+    margin-left: 2rem; /* Adjust margin to the left */
+    font-family: var(--font-family);
     font-weight: bolder;
-    color:#fff;
-    font-size:40px;
+    color: #fff;
+    font-size: 40px;
+    justify-content: flex-end; /* Align logo to the right */
 }
 
 .portfolio__navbar-links_container {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start; /* Align links to the left */
 }
 
  

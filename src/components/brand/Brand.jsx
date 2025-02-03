@@ -11,7 +11,7 @@ const Brand = () => (
    
     <div>
       
-      <a href="https://www.linkedin.com/in/williams-otieno-ochieng?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src={LINKEDIN} /><p>LINKEDIN</p></a>
+      <a href="https://www.linkedin.com/in/williams-otieno-miee-maces-b358ab33b/"><img src={LINKEDIN} /><p>LINKEDIN</p></a>
     </div>
     </div>
 );

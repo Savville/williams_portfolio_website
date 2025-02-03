@@ -1,21 +1,23 @@
 import React from 'react';
-import SAUTIYETU from '../../assets/sautiyetu homepage.png';
+import NOTEHUB from '../../assets/NOTEHUB.png';
 import './PROJECT2.css';
 
 const PROJECT2 = () => (
   <div className="portfolio__project section__padding" id="project">
     <div className="portfolio__project-content">
-      <h4>Sauti Yetu</h4>      
-      <p>App for Citizen's Bills proposals and Recommendations .</p>
-      <p>During the emergence of the "Reject Finance Bill 2024",It is realised that people should be more involved in making the decisions affecting lifes
-        and making proposals for changes. And this should be done in a peaceful way without protests that are highly fatal. Hence the need for an app for Citizen to participate
-        , know their country and have a voice on a national and devolved levels peaceful.
-      </p>
-      <p>Development stage.</p> 
+      <h4>NoteHub App: Usability Research and Design</h4>      
+      <p>As a team of University Students around Nairobi, we did research on how we can be able to help improve the current learning process.</p>
+      <p>The following points came through:</p>
+      <ul><li>We learned from fellow Students that accessing notes and revision materials was hard at sometimes.</li>
+      <li>Other users claimed the timetable was rigid in case someone had other obligations and would be forced to miss a class</li>
+      <li>Most of them claimed that the learning from classes was inefficient sometimes.</li>
+      </ul>
+      <p>We are now working on solving some of these by developing an
+      application that can allow student flexibility, make accessing notes easier and learning interactive.</p> 
       
     </div>
     <div className="portfolio__project-image">
-      <img src={SAUTIYETU} alt="SAUTI YETU" />
+      <img src={NOTEHUB} alt="notehub" />
     </div>
   </div>
 );
