@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 2rem 6rem;
-    flex-direction: row-reverse; /* Reverse the order of the children */
+    flex-direction: row; /* Reverse the order of the children */
 }
 
 .portfolio__navbar-links {
@@ -59,7 +59,7 @@
 }
 
 .portfolio__navbar-menu {
-    margin-left: 1rem;
+    /*margin-left: 1rem;*/
 
     display: none;
     position: relative;
